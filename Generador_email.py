@@ -5,7 +5,6 @@ dominio = ' epn.edu.ec '
 print(f'Nombre: {nombre}')
 #Normalizar el nombre
 nombre_usuario = nombre.strip()#un metodo a la vez
-
 nombre_usuario = nombre_usuario.lower()#un metodo a la vez
 nombre_usuario = nombre_usuario.replace(' ', '.')#un metodo a la vez
 print(f'Nombre de usuario: {nombre_usuario}')
